@@ -16,9 +16,7 @@
 
 + (NSString *)timeWithTimeIntervalString:(NSString *)timeString{
     NSString *format = @"yyyy年MM月dd日";
-    if(![KKWalletTool getSystemLanguage]){
         format =  @"yyyy/MM/dd";
-    }
      return [self timeWithTimeIntervalString:timeString formate:format];
 }
 
@@ -62,9 +60,7 @@
 //    NSDate*date =[dateFormat dateFromString:currentStr];
     
     NSArray*weekdays = [NSArray arrayWithObjects: [NSNull null],@"周日",@"周一",@"周二",@"周三",@"周四",@"周五",@"周六",nil];
-    if(![KKWalletTool getSystemLanguage]){
         weekdays = [NSArray arrayWithObjects: [NSNull null],@"Sunday",@"Monday",@"Tuesday",@"Wednesday",@"Thursday",@"Friday",@"Saturday",nil];
-    }
     NSCalendar*calendar = [[NSCalendar alloc]initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
     
     NSTimeZone*timeZone = [[NSTimeZone alloc]initWithName:@"Asia/Shanghai"];
