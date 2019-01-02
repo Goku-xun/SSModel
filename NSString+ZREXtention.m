@@ -1,8 +1,8 @@
 //
 //  NSString+ZREXtention.m
-//  Shuzic
+//  CheckNill
 //
-//  Created by 黄武杰 on 2017/6/28.
+//  Created by CheckNill on 2017/6/28.
 //
 
 #import "NSString+ZREXtention.h"

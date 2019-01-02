@@ -1,9 +1,8 @@
 //
 //  NSString+ZREXtention.h
-//  Shuzic
+//  CheckNill
 //
-//  Created by 黄武杰 on 2017/6/28.
-//  Copyright © 2017年 深圳跨港通国际贸易有限公司. All rights reserved.
+//  Created by CheckNill on 2017/6/28.
 //
 
 #import <Foundation/Foundation.h>

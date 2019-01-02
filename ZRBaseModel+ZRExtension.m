@@ -1,9 +1,8 @@
 //
 //  ZRBaseModel+ZRExtension.m
-//  Shuzic
+//  CheckNill
 //
-//  Created by Tony on 2017/11/5.
-//  Copyright © 2017年 深圳跨港通国际贸易有限公司. All rights reserved.
+//  Created by CheckNill on 2017/11/5.
 //
 
 #import "ZRBaseModel+ZRExtension.h"
